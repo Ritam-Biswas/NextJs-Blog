@@ -1,0 +1,52 @@
+.main{
+    padding: 40px 0;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.inner_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inner_container h1{
+    font-size: 50px;
+}
+
+.inner_container h4{
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 600px;
+    line-height: 24px;
+}
+
+.inner_container .btn_container{
+    display: flex;
+    gap: 20px;
+}
+
+.inner_container button{
+    padding: 10px 15px;
+    background-color: var(--text-white);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.inner_container button:hover{
+    background-color: var(--text-grey);
+}
+
+.inner_container .brands_img{
+    filter: grayscale(80%);
+}

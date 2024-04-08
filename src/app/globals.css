@@ -1,1 +1,22 @@
+:root{
+    --primary-color: #0d0c22;
+    --secondary-color: #3673fd;
+    --text-white: #eeeeee;
+    --text-grey: #e4e4e6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}
+
 
