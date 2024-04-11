@@ -13,7 +13,7 @@ const Navbar = () => {
             <li><Link href='/'>Homepage</Link></li>
             <li><Link href='/about'>About</Link></li>
             <li><Link href='/contact'>Contact</Link></li>
-            <li><Link href='#'>Blog</Link></li>
+            <li><Link href='/blogs'>Blog</Link></li>
             <li><Link href='#'>Admin</Link></li>
             <button className={styles.btn}>Login</button>
         </ul>
