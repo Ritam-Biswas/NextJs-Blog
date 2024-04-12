@@ -1,0 +1,40 @@
+.post_box_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_box_container .post_detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.post_box_container .post_detail img{
+    border-radius: 50%;
+}
+
+.post_box_container .post_detail h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.post_box_container .btn_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.post_box_container .btn_container button{
+    width: 60px;
+    padding: 5px 0;
+    border: none;
+    color: inherit;
+}
+
+.post_box_container .btn_container .view_btn{
+    background-color: rgb(0, 116, 0);
+}
+
+.post_box_container .btn_container .delete_btn{
+    background-color: rgb(163, 0, 0);
+}
