@@ -1,0 +1,41 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.logo_container{
+
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: var(--text-white);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    background-color: var(--text-grey);
+}
