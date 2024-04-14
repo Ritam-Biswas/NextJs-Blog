@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px 0;
+    gap: 40px;
 }
 
 .inner_container{
@@ -16,7 +17,7 @@
     font-weight: 500;
 }
 
-.posts_container, .add_post_container{
+.posts_container, .add_post_container, .user_container, .add_user_container{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -30,7 +31,7 @@
     width: 100%;
 }
 
-.container form input, .container form button{
+.container form input, .container form button, .container select{
     padding: 15px 10px;
     width: 100%;
     background-color: var(--accent-color);

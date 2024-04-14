@@ -6,6 +6,7 @@ import 'react-quill/dist/quill.snow.css';
 import { useEffect } from 'react';
 
 import EditPostBox from "@/components/edit_post_box/edit_post_box";
+import EditUserBox from '@/components/edit_user_box/edit_user_box';
 
 import styles from './syles.module.css'
 
@@ -35,6 +36,26 @@ const Admin = () => {
                             backgroundColor: 'var(--accent-color)',
                             height: '200px'
                         }}/>
+                        <button type="submit">Add</button>
+                    </form>
+                </div>
+            </div>
+            <div className={styles.inner_container}>
+                <div className={styles.user_container}>
+                    <h3>Users</h3>
+                    <EditUserBox/>
+                </div>
+                <div className={styles.add_user_container}>
+                    <h3>Add New User</h3>
+                    <form action="">
+                        <input type="text" name="name" placeholder='Name'/>
+                        <input type="email" name="email" placeholder='Email'/>
+                        <input type="password" name='password' placeholder='Password'/>
+                        <input type="text" name='image_url' placeholder='Image URL'/>
+                        <select name="is_admin">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
                         <button type="submit">Add</button>
                     </form>
                 </div>
